@@ -1,3 +1,4 @@
+
 const hexToRgb = (hex) => hex
   .replace(
     /^#?([a-f\d])([a-f\d])([a-f\d])$/i,
@@ -8,8 +9,8 @@ const hexToRgb = (hex) => hex
   .map((x) => parseInt(x, 16));
 
 const isElementInViewport = (el, percentage = 50) => {
-  const { innerHeight, innerWidth } = window;
-  const { clientHeight, clientWidth } = document.documentElement;
+  const { innerHeight, innerWidth } = window; // eslint-disable-line
+  const { clientHeight, clientWidth } = document.documentElement; // eslint-disable-line
 
   const rect = el.getBoundingClientRect();
 
