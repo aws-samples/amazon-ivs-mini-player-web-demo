@@ -6,7 +6,7 @@ import { CONTROLS, POSITION } from './components/mini-player';
 import './App.css';
 
 const STREAM_PLAYBACK_URL =
-  'https://usher.ttvnw.net/api/lvs/hls/lvs.lvs-client-example.c6341be8-a3c7-42bc-b89a-8dabe040eae9.m3u8';
+  'https://3d26876b73d7.us-west-2.playback.live-video.net/api/video/v1/us-west-2.913157848533.channel.xJ2tVekwmMGd.m3u8';
 
 const App = () => {
   return (
