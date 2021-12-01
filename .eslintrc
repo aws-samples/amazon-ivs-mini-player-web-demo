@@ -1,25 +1,16 @@
 {
-	"extends": [
-		"react-app",
-		"react-app/jest",
-		"eslint:recommended",
-		"plugin:react/recommended",
-		"plugin:testing-library/react",
-		"plugin:jest-dom/recommended",
-		"plugin:jsx-a11y/recommended",
-		"plugin:@typescript-eslint/eslint-recommended",
-		"plugin:@typescript-eslint/recommended"
-	],
-	"parserOptions": {
-		"ecmaVersion": 2020,
-		"sourceType": "module"
-	},
-	"env": {
-		"es6": true
-	},
-	"rules": {
-		"react/prop-types": 0,
-		"@typescript-eslint/explicit-module-boundary-types": "off",
-		"@typescript-eslint/ban-ts-comment": "off"
-	}
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "env": {
+      "es6": true
+  },
+  "rules": {
+    "react/prop-types": 0
+  }
 }
